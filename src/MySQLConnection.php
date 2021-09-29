@@ -1,5 +1,5 @@
 <?php
-namespace ExemploPDOMySQL;
+namespace TrabalhoPDOMySQL;
 
 class MYSQLConnection extends \PDO {
     public function __construct() {

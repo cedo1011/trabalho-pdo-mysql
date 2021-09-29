@@ -31,6 +31,7 @@ $generos = $comando->fetchAll(PDO::FETCH_ASSOC);
                     <td><?= $g['nome']?></td>
                     <td>
                         <a href="update.php?id=<?= $g['id'] ?>">Editar</a>
+                        <a href="delete.php?id=<?= $g['id'] ?>">Ecluir</a>
                 </tr>
             <?php endforeach ?>
         </table>

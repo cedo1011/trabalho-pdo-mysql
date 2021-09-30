@@ -1,6 +1,6 @@
 <?php
 require_once './vendor/autoload.php';
-use PDO;
+//use PDO;
 
 use TrabalhoPDOMySQL\MySQLConnection; //PDO
 $bd = new MYSQLConnection(); //PDO ('mysql:host=localhost;dbname=biblioteca', 'root', '');
